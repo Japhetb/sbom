@@ -27,7 +27,7 @@ defmodule SBoM.CycloneDX do
           {:bom,
            [
              serialNumber: options[:serial] || uuid(),
-             xmlns: "http://cyclonedx.org/schema/bom/1.2"
+             xmlns: "http://cyclonedx.org/schema/bom/1.4"
            ],
            [
              {:metadata, [],
